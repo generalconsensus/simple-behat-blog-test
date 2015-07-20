@@ -2,10 +2,7 @@ default:
   extensions:
     Behat\MinkExtension\Extension:
       base_url: 'http://shaneauckland.co.uk'
-      # javascript_session: sahi
-      # browser_name: phantomjs
       goutte: ~
-      sahi: ~
 
 jenkins:
     formatter:
