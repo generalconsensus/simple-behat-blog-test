@@ -12,7 +12,7 @@
         <echo msg="update composer" />
         <exec command="php composer.phar self-update" passthru="true" />
         <echo msg="clear composer cache" />
-        <exec command="composer cache-clear" passthru="true" />
+        <exec command="composer clear-cache" passthru="true" />
         <echo msg="install composer packages" />
         <exec command="php composer.phar update" passthru="true" />
     </target>
