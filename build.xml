@@ -12,7 +12,7 @@
         <echo msg="update composer" />
         <exec command="php composer.phar self-update" passthru="true" />
         <echo msg="install composer packages" />
-        <exec command="php composer.phar install" passthru="true" />
+        <exec command="php composer.phar update" passthru="true" />
     </target>
 
     <!-- Run the test suite -->
