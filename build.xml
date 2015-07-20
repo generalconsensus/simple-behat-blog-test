@@ -11,8 +11,8 @@
     <target name="prepare" description="Use composer to install dependancies">
         <echo msg="update composer" />
         <exec command="php composer.phar self-update" passthru="true" />
-        <echo msg="install dependancies" />
-        <exec command="php composer.phar update" passthru="true" />
+        <echo msg="install composer packages" />
+        <exec command="php composer.phar install" passthru="true" />
     </target>
 
     <!-- Run the test suite -->

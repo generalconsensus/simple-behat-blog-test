@@ -1,13 +1,11 @@
 {
-    "require": {
-        "behat/behat": "2.4.*@stable",
-        "behat/mink": "1.4.*@stable",
-        "behat/mink-extension": "*",
-        "behat/mink-goutte-driver": "*",
-        "behat/mink-sahi-driver": "dev-master"
-    },
-    "minimum-stability": "dev",
-    "config": {
-        "bin/dir": "bin/"
-    }
+  "require": {
+    "behat/behat": "2.4.*@stable",
+    "behat/mink": "1.5@stable",
+    "drupal/drupal-extension": "*"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "bin-dir": "bin/"
+  }
 }
