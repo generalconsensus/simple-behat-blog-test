@@ -1,4 +1,3 @@
-@javascript
 Feature: Test blog is up
   Test that my blog is up on the expected domain name
 
