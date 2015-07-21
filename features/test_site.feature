@@ -16,5 +16,5 @@ Scenario: Test about page exists
 
 Scenario: Deliberate failue
 
-    Given i am on "/"
+    Given I am on "/"
     Then I should see "Where I air my dirty laundry"
