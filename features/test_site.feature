@@ -17,4 +17,4 @@ Scenario: Test about page exists
 Scenario: Deliberate failue
 
     Given I am on "/"
-    Then I should see "Where I air my dirty laundry"
+    Then I should see "Where I write stuff about programming"
